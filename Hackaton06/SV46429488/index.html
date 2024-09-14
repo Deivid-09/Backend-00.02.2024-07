@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackaton #06</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SISTEMA DE REPARACION DE TELEFONOS</h1>
+        
+        <h2>Formulario Servicio Tecnico:</h2>
+        <form id="phoneForm" onsubmit="Formulario(event)">
+            <label for="branch">Sede</label>                       <select id="branch" required></select><br><br>
+            <label for="serialNumber">Número de Serie</label>      <input type="text" id="serialNumber" required><br><br>
+            <label for="imei">IMEI</label>                         <input type="text" id="imei" required><br><br>
+            <label for="marca">Marca</label>                       <input type="text" id="marca" required><br><br>
+            <label for="modelo">Modelo</label>                     <input type="text" id="modelo" required><br><br>
+            <label for="diagnostico">Diagnóstico</label>           <input type="text" id="diagnostico" required><br><br>
+            <label for="autorizacion">Autorización (SI/NO)</label> <input type="text" id="autorizacion" required><br><br>
+            <label for="abono">Abono</label>                   <input type="text" id="abono" required><br><br>
+            <button type="submit" class="button">Ingresar Equipo</button>
+        </form> 
+
+        <h2>LISTA DE EQUIPOS EN REVISION</h2>
+        <table id="phoneTable">
+            <thead>
+                <tr>
+                    <th>Sucursal</th>
+                    <th>Número de Serie</th>
+                    <th>IMEI</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Diagnóstico</th>
+                    <th>Autorización</th>
+                    <th>Abono(%)</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

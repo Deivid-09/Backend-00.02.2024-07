@@ -1,0 +1,3 @@
+id,username,password,email,activo,usrCreacion,fechaCreacion,usrModificacion,fechaModificacion
+1,dlopez,qwerty,dlopez@x-codec.net,1,1,"2024-09-10 21:53:21",NULL,NULL
+2,rpineda,qwerty,rpineda@x-codec.net,0,1,"2024-09-10 21:53:32",1,"2024-09-10 22:03:13"

@@ -1,0 +1,212 @@
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+
+
+.modal-content input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px);
+    margin: 10px 0;
+}
+.modal-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #13ab67;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.modal-content button:hover {
+    background: color-mix(in srgb, #13ab67, transparent 25%);
+} 
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181A1F; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    align-items: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+    background: #E7E9EB; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    /* height: 100vh; */
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+button {
+    margin-left: 10px;
+    padding: 10px 12px;
+    font-size: 16px;
+    background-color: #13ab67;
+    color: white;
+    border: none;
+    border-radius: 6px; 
+    cursor: pointer;
+}
+button:hover {
+    background: color-mix(in srgb, #13ab67, transparent 25%);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  
+  font-family: Arial, sans-serif;
+}
+h3,h4,h5 {
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}
+
+
+select {
+    padding: 12px;
+    padding-right: 100px;
+    border: 2px solid #13ab67;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    width: calc(100% - 400px);
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    outline: none;
+}
+
+input {
+    padding: 12px;
+    padding-right: 100px;
+    border: 2px solid #13ab67;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    width: calc(100% - 400px);
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    outline: none;
+}
+
+input:focus {
+    border-color: #13ab67;
+    background-color: #fff;
+}
+
+label{
+    padding-right: 600px;
+}
+
+.input-container label {
+    position: absolute;
+    padding-right: 10px;
+    top: 12px;
+    left: 12px;
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+/* input:focus ~ label,
+input:not(:placeholder-shown) ~ label {
+    top: -10px;
+    left: 8px;
+    font-size: 12px;
+    color: #13ab67;
+} */
+
+
+
+  .exercise-header {
+    background-color: #282A35; /* Color de fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .exercise-code {
+    flex-grow: 1;
+    margin: 20px 0;
+    background-color: #222;  
+    color: #fff;   
+  }
+  
+
+
+  .exercise-code code {
+    white-space: pre-wrap;
+  }
+
+  .exercise-header h4 {
+    font-size: 18px;
+    /* margin-bottom: 10px; */
+    margin-bottom: 0.5em;
+    margin: 10px 0 10px 0;
+  }
+  
+  .exercise-header h6 {
+    font-size: 16px;
+    /* margin-top: 5px; */
+    line-height: 1.2;
+    font-weight: 400;  /* Optional */
+    font-style: italic; /* Optional */
+    margin-bottom: 0.5em;
+    margin: 10px 0 10px 0;
+    /* margin-bottom: 0.5em; */
+  }
+
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        table, th, td { border: 2px solid rgb(4, 101, 33); }
+        th, td { padding: 8px; text-align: left; }

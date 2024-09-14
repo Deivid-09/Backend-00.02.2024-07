@@ -1,0 +1,20 @@
+{
+  "name": "sv71494216",
+  "version": "1.0.0",
+  "description": "Pruebs npm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erick",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
